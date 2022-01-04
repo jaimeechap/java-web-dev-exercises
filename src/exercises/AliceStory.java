@@ -15,7 +15,7 @@ public class AliceStory {
         input = new Scanner(System.in);
         System.out.println("Search for a term in the first sentence of Alice in Wonderland.");
         searchTerm = input.nextLine().toLowerCase();
-
+//Jayde's usage: Boolean result = story.contains(searchTerm); then system out "Your search contains it + result)
         if (story.contains(searchTerm)) {
             System.out.println("The index or indices of the search term within the sentence are as follows: ");
             index = story.indexOf(searchTerm);
@@ -29,4 +29,5 @@ public class AliceStory {
             System.out.println("False");
         }
     }
+//    Jayde didn't use if/then, made new String =- String modified = story.replace(searchTerm, replacement "")
 }
