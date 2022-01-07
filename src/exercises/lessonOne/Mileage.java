@@ -1,4 +1,4 @@
-package exercises;
+package exercises.lessonOne;
 import java.util.Scanner;
 public class Mileage {
     public static void main(String[] args) {
